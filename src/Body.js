@@ -93,7 +93,7 @@ export default function Body(){
                                 <li key = {t.id} onClick={() => 
                                     lgIn ? setShowEdit(t.id): null
                                 } style={{margin: 15}}>{t.value} 
-                                {lgIn? <button className="delete" onClick={()=>deleteItem(t.id)} >Remove Post</button>: null} </li> 
+                                 </li> 
                             
                             {showEdit === t.id ? (
                                 <div style={{margin: 15}}>
@@ -103,6 +103,7 @@ export default function Body(){
                                     <div> */}
                                     <button onClick={()=> editItem(t.id, updatedText)} >Update Post</button>
                                     </div>
+                                    {lgIn? <button className="delete" onClick={()=>deleteItem(t.id)} >Remove Post</button>: null}
                                 </div>
                             ): null}
 
