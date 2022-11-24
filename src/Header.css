@@ -1,0 +1,67 @@
+.heading{
+    margin: 0;
+    text-align: center;
+    width: 90%;
+    padding: 2%;
+    background-color: bisque;
+    color: rgb(213, 13, 13);
+}
+.input{
+    align-items: center;
+    height: auto;
+    padding: 2%;
+    text-align: center;
+    background-color: darksalmon;
+}
+.taskHolder{
+    width: 50%;
+    align-items: center;
+    height: 30px;
+}
+
+.btn{
+    margin: 10px;
+    width: 150px;
+    size: 50px;
+    color: antiquewhite;
+    background-color: blue;
+    border-radius: 30px;
+}
+.danger .btn{
+    margin-left: 20px;
+    width: 150px;
+}
+.danger{
+    text-align: center;
+    align-items: center;
+    background-color: red;
+}
+.tasks{
+    display: grid;
+    text-align: center;
+    
+}
+.delete{
+    margin: 1px;
+}
+
+ol li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 30%;
+    height: 50%;
+}
+
+.post {
+    width: 25%;
+    height: auto;
+    min-height: 45%;
+    background-color: azure;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
